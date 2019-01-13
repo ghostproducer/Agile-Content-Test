@@ -2,7 +2,7 @@
   "name": "agile-content",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://ghostproducer.github.io/Agile-Content-Front-End-Test",
+  "homepage": "http://ghostproducer.github.io/Agile-Content-Test",
   "engines": {
     "node": "10.3.0"
   },

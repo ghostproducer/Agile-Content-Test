@@ -1,0 +1,71 @@
+$selectImgGeral: "../images/menuselectedGeral.png";
+$selectImgElenco: "../images/menuselectedElenco.png";
+$unselectImg: "../images/menuunselectedbottom.png";
+
+.menuBottom {
+  
+  background-color: #101010;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  width: 125%;
+
+  .select {
+    text-align: left;
+    height: 45px;
+    padding: 0 0 5px 0px;
+  }
+
+  .selectGeral {
+    min-width: 120px;
+  }
+
+  .selectElenco {
+    min-width: 135px;
+  }
+
+  .selectPremios {
+    min-width: 135px;
+  }
+
+  .txt {
+    position: absolute;
+    width: 1px;
+    padding-top: 20px;
+    padding-left: 5px;
+    cursor: pointer;
+  }
+
+  .txt:hover {
+    font-size: 17px;
+    padding-top: 18px;
+    padding-left: 3px;
+  }
+
+  .selectedGeral {
+    background-image: url($selectImgGeral);
+    background-repeat: repeat-x;
+  }
+
+  .selectedElenco {
+    background-image: url($selectImgElenco);
+    background-repeat: repeat-x;
+  }
+
+  .unselected {
+    background-image: url($unselectImg);
+    background-repeat: repeat-x;
+  }
+
+  .providerDiv {
+    padding-left: 92%;
+    height: 40px;
+    padding-top: 5px;
+  }
+
+  .nav {
+    padding-top: 15px;
+    font-size: 12px;
+    height: 150px;
+  }
+}

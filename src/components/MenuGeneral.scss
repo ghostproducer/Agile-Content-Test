@@ -1,0 +1,26 @@
+.menuGeneral {
+
+  .icons {
+      filter: brightness(70%);
+      cursor: pointer;
+  }
+
+  .iconTd {
+    width: 80px;
+    font-size: 11px;
+    padding-top: 10px;
+  }
+
+  .sinopse {
+    padding-left: 90px;
+    text-align: left;
+    vertical-align: middle;
+    white-space: normal;
+    padding-right: 20px;
+  }
+
+  .sinopseTxt {
+    padding-top: 5px;
+    white-space: normal;
+  }
+}
